@@ -128,6 +128,45 @@ Frontend Update:
 User receives visual confirmation and order summary after successful checkout.
 ⚙️ Setup Instructions
 
+## 🔐 Authentication
+
+Users can sign up, log in, and log out
+
+JWT tokens are used for session management
+
+Passwords are securely hashed using bcrypt
+
+## 💳 Stripe Integration
+
+Test mode payments enabled via Stripe API
+
+Supports card checkout for products
+
+Payment status handled and updated in backend
+
+## 🚀 Deployment
+
+Deploy backend on Render / Heroku
+
+Deploy frontend on Vercel / Netlify
+
+Update frontend .env to point to your deployed backend API
+
+Update Stripe keys to production keys before going live
+
+## 🤝 Contributing
+
+Fork the repository
+
+Create a new branch (git checkout -b feature/YourFeature)
+
+Make your changes and commit (git commit -m "Add some feature")
+
+Push to the branch (git push origin feature/YourFeature)
+
+Open a Pull Request
+
+
 ## 🧩 Backend Setup
 ```bash
 cd backend
@@ -183,43 +222,4 @@ ecommerce-handicraft-toys/
 ├── README.md
 └── .gitignore
 
-```bash
-
-## 🔐 Authentication
-
-Users can sign up, log in, and log out
-
-JWT tokens are used for session management
-
-Passwords are securely hashed using bcrypt
-
-## 💳 Stripe Integration
-
-Test mode payments enabled via Stripe API
-
-Supports card checkout for products
-
-Payment status handled and updated in backend
-
-## 🚀 Deployment
-
-Deploy backend on Render / Heroku
-
-Deploy frontend on Vercel / Netlify
-
-Update frontend .env to point to your deployed backend API
-
-Update Stripe keys to production keys before going live
-
-## 🤝 Contributing
-
-Fork the repository
-
-Create a new branch (git checkout -b feature/YourFeature)
-
-Make your changes and commit (git commit -m "Add some feature")
-
-Push to the branch (git push origin feature/YourFeature)
-
-Open a Pull Request
 
