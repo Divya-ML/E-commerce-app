@@ -1,4 +1,4 @@
-# Handicraft Toys E-commerce Platform
+<img width="894" height="1024" alt="cart Image Oct 16, 2025, 04_57_59 PM" src="https://github.com/user-attachments/assets/e6f4621d-3333-4d68-bd76-6a34bd0f7e98" /># Handicraft Toys E-commerce Platform
 
 A full-stack web app for browsing, filtering, and purchasing unique handicraft toys.
 
@@ -73,8 +73,8 @@ A full-stack e-commerce platform for browsing, filtering, and purchasing unique 
 ![Cart Screenshot](assets/cart.png)  
 ![Checkout Screenshot](assets/checkout.png)
 
-
-![Uploading flow Image Oct 16, 2025, 04_53_02 PM.png…]()
+## 🧠 System Architecture
+![System Architecture Flow](https://github.com/<username>/<repo>/assets/<hash>/<filename>.png)
 
 ⚙️ Setup Instructions
 
