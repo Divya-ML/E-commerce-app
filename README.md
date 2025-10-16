@@ -183,6 +183,7 @@ ecommerce-handicraft-toys/
 ├── README.md
 └── .gitignore
 
+```bash
 
 ## 🔐 Authentication
 
