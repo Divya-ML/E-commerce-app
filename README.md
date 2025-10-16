@@ -168,7 +168,7 @@ Open a Pull Request
 
 
 ## 🧩 Backend Setup
-```bash
+
 cd backend
 npm install
 cp .env.example .env   # Add your MongoDB URI, JWT_SECRET, and Stripe keys
@@ -180,7 +180,7 @@ npm install
 npm start              # Runs React app on localhost:3000
 
 ## 🗂️ Folder Structure
-
+```bash
 ecommerce-handicraft-toys/
 ├── backend/
 │   ├── controllers/           # (Optional, for splitting business logic)
