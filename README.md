@@ -1,4 +1,4 @@
-# E-commerce-app
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/ae57fb58-3446-4f63-9597-63f1695d45f1" /># E-commerce-app
 
 # Handicraft Toys E-commerce Platform
 
