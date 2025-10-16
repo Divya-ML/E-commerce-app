@@ -1,4 +1,4 @@
-<img width="894" height="1024" alt="cart Image Oct 16, 2025, 04_57_59 PM" src="https://github.com/user-attachments/assets/e6f4621d-3333-4d68-bd76-6a34bd0f7e98" /># Handicraft Toys E-commerce Platform
+<img width="894" height="1024" alt="cart Image Oct 16, 2025, 04_57_59 PM" src="https://github.com/user-attachments/assets/2ce1114d-b225-48aa-a54d-65d1b57bb791" /><img width="894" height="1024" alt="cart Image Oct 16, 2025, 04_57_59 PM" src="https://github.com/user-attachments/assets/e6f4621d-3333-4d68-bd76-6a34bd0f7e98" /># Handicraft Toys E-commerce Platform
 
 A full-stack web app for browsing, filtering, and purchasing unique handicraft toys.
 
@@ -75,6 +75,7 @@ A full-stack e-commerce platform for browsing, filtering, and purchasing unique 
 
 ## 🧠 System Architecture
 ![System Architecture Flow](https://github.com/<username>/<repo>/assets/<hash>/<filename>.png)
+<img width="1536" height="853" alt="flow Image Oct 16, 2025, 04_53_02 PM" src="https://github.com/user-attachments/assets/6c5b6169-ebf9-46ae-aaac-33775e20f165" />
 
 ⚙️ Setup Instructions
 
