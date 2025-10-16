@@ -128,9 +128,8 @@ Frontend Update:
 User receives visual confirmation and order summary after successful checkout.
 ⚙️ Setup Instructions
 
-### Backend
+## Backend
 
-```bash
 cd backend
 npm install
 cp .env.example .env  # Add your MongoDB URI, JWT secret, Stripe keys
@@ -145,7 +144,7 @@ npm start  # Runs React app on localhost:3000
 
 ecommerce-handicraft-toys/
 ├── backend/
-│   ├── controllers/           # (Optional, for splitting business logic)
+│   ├── controllers/         
 │   ├── models/
 │   │   ├── Product.js
 │   │   └── User.js
@@ -154,8 +153,8 @@ ecommerce-handicraft-toys/
 │   │   ├── cart.js
 │   │   ├── payment.js
 │   │   └── product.js
-│   ├── utils/                 # (Optional, for helpers)
-│   ├── config/                # (Optional, for DB config)
+│   ├── utils/               
+│   ├── config/                
 │   ├── app.js
 │   ├── package.json
 │   └── .env
@@ -163,7 +162,7 @@ ecommerce-handicraft-toys/
 ├── frontend/
 │   ├── public/
 │   ├── src/
-│   │   ├── assets/            # (Product images, etc.)
+│   │   ├── assets/           
 │   │   ├── components/
 │   │   │   └── ProductCard.js
 │   │   ├── context/
