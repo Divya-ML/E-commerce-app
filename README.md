@@ -1,8 +1,8 @@
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/ae57fb58-3446-4f63-9597-63f1695d45f1" /># E-commerce-app
-
 # Handicraft Toys E-commerce Platform
 
 A full-stack web app for browsing, filtering, and purchasing unique handicraft toys.
+
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/ae57fb58-3446-4f63-9597-63f1695d45f1" />
 
 ## Tech Stack
 - Frontend: React.js, Tailwind CSS, ShadCN UI, Stripe
@@ -74,6 +74,7 @@ A full-stack e-commerce platform for browsing, filtering, and purchasing unique 
 ![Checkout Screenshot](assets/checkout.png)
 
 
+![Uploading flow Image Oct 16, 2025, 04_53_02 PM.png…]()
 
 ⚙️ Setup Instructions
 
