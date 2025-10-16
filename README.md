@@ -144,7 +144,7 @@ npm start  # Runs React app on localhost:3000
 
 ecommerce-handicraft-toys/
 ├── backend/
-│   ├── controllers/         
+│   ├── controllers/           # (Optional, for splitting business logic)
 │   ├── models/
 │   │   ├── Product.js
 │   │   └── User.js
@@ -153,8 +153,8 @@ ecommerce-handicraft-toys/
 │   │   ├── cart.js
 │   │   ├── payment.js
 │   │   └── product.js
-│   ├── utils/               
-│   ├── config/                
+│   ├── utils/                 # (Optional, for helpers)
+│   ├── config/                # (Optional, for DB config)
 │   ├── app.js
 │   ├── package.json
 │   └── .env
@@ -162,7 +162,7 @@ ecommerce-handicraft-toys/
 ├── frontend/
 │   ├── public/
 │   ├── src/
-│   │   ├── assets/           
+│   │   ├── assets/            # (Product images, etc.)
 │   │   ├── components/
 │   │   │   └── ProductCard.js
 │   │   ├── context/
