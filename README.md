@@ -128,17 +128,17 @@ Frontend Update:
 User receives visual confirmation and order summary after successful checkout.
 ⚙️ Setup Instructions
 
-## Backend
-
+## 🧩 Backend Setup
+```bash
 cd backend
 npm install
-cp .env.example .env  # Add your MongoDB URI, JWT secret, Stripe keys
-npm run dev  # Starts backend server
+cp .env.example .env   # Add your MongoDB URI, JWT_SECRET, and Stripe keys
+npm run dev            # Starts backend server on localhost:5000
 
-Frontend
+🎨 Frontend Setup
 cd frontend
 npm install
-npm start  # Runs React app on localhost:3000
+npm start              # Runs React app on localhost:3000
 
 ## 🗂️ Folder Structure
 
