@@ -1,4 +1,4 @@
-<img width="894" height="1024" alt="cart Image Oct 16, 2025, 04_57_59 PM" src="https://github.com/user-attachments/assets/2ce1114d-b225-48aa-a54d-65d1b57bb791" /><img width="894" height="1024" alt="cart Image Oct 16, 2025, 04_57_59 PM" src="https://github.com/user-attachments/assets/e6f4621d-3333-4d68-bd76-6a34bd0f7e98" /># Handicraft Toys E-commerce Platform
+# Handicraft Toys E-commerce Platform
 
 A full-stack web app for browsing, filtering, and purchasing unique handicraft toys.
 
@@ -73,10 +73,59 @@ A full-stack e-commerce platform for browsing, filtering, and purchasing unique 
 ![Cart Screenshot](assets/cart.png)  
 ![Checkout Screenshot](assets/checkout.png)
 
-## 🧠 System Architecture
-![System Architecture Flow](https://github.com/<username>/<repo>/assets/<hash>/<filename>.png)
-<img width="1536" height="853" alt="flow Image Oct 16, 2025, 04_53_02 PM" src="https://github.com/user-attachments/assets/6c5b6169-ebf9-46ae-aaac-33775e20f165" />
+/><img width="894" height="1024" alt="cart Image Oct 16, 2025, 04_57_59 PM" src="https://github.com/user-attachments/assets/e6f4621d-3333-4d68-bd76-6a34bd0f7e98" />
 
+## 🧠 System Architecture
+
+<img width="1536" height="853" alt="flow Image Oct 16, 2025, 04_53_02 PM" src="https://github.com/user-attachments/assets/6c5b6169-ebf9-46ae-aaac-33775e20f165" />
+🧠 System Architecture Overview
+
+The Alaiy Handicraft E-commerce Platform follows a modular full-stack architecture that ensures scalability, security, and maintainability.
+It is designed to provide a seamless experience from browsing handcrafted products to secure payment checkout.
+
+🔍 Architecture Highlights
+
+Frontend (React + Tailwind + ShadCN UI)
+Handles user interactions, dynamic routing, and product visualization.
+Communicates with the backend via RESTful APIs for authentication, product data, and payments.
+
+Backend (Node.js + Express)
+Acts as the core server managing routes, middleware, authentication, and payment processing.
+Uses JWT tokens for secure user sessions and bcrypt for password hashing.
+
+Database (MongoDB Atlas)
+Stores product details, user profiles, cart items, and order histories.
+Optimized with indexes for fast querying and scalability.
+
+Payment Gateway (Stripe API)
+Integrates secure payment processing for test mode transactions.
+Handles payment confirmation and order status updates.
+
+Deployment
+
+Frontend → Vercel / Netlify
+
+Backend → Render / Heroku / Vercel / AWS Lambda
+
+🏗️ Data Flow Summary
+
+User Interaction:
+User signs up or logs in from the React frontend.
+
+API Communication:
+Frontend sends API requests to the Node.js backend for authentication or product data.
+
+Database Operations:
+Backend fetches or updates records in MongoDB as needed.
+
+Cart & Checkout:
+Selected products are added to the cart and processed via Stripe API.
+
+Payment Confirmation:
+Stripe returns payment success/failure; backend stores order details in the database.
+
+Frontend Update:
+User receives visual confirmation and order summary after successful checkout.
 ⚙️ Setup Instructions
 
 ### Backend
